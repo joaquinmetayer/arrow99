@@ -13,21 +13,3 @@ body{
     justify-content: center;
     padding: 30px;
 }
-h1{
-    font-size: 90px;
-}
-p{
-    font-size: 85px;
-}
-hr{
-    width: 100%;
-    border: solid 1px #fff;
-}
-@media (max-width: 600px) {
-    h1{
-        font-size: 70px;
-    }
-    p{
-        font-size: 65px;
-    }
-}
