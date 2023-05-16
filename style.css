@@ -1,24 +1,32 @@
-body {
-  padding: 50px;
-  max-width: 500px;
-  margin: auto;
-  font-family: sans-serif;
-  filter: grayscale(1);
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
 }
-a {
-  color: #000000;
+body{
+    height: 90vh;
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
 }
-h1 {
-  font-weight: bold;
-  font-size: 60px;
+h1{
+    font-size: 90px;
 }
-img,
-embed {
-  width: 100%;
+p{
+    font-size: 85px;
 }
-embed {
-  aspect-ratio: 16/9;
+hr{
+    width: 100%;
 }
-hr {
-  border: 0.01px solid #00000025;
+@media (max-width: 600px) {
+    h1{
+        font-size: 70px;
+    }
+    p{
+        font-size: 65px;
+    }
 }
