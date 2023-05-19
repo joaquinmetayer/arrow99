@@ -1,15 +1,21 @@
 *{
-    padding: 0;
-    margin: 0;
     background-color: #000;
     color: #fff;
-    overflow: hidden;
 }
-body{
-    height: 80vh;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 30px;
+body {
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  font-family: sans-serif;
+  filter: grayscale(1);
+}
+img,
+embed {
+  width: 100%;
+}
+embed {
+  aspect-ratio: 16/9;
+}
+hr {
+  border: 0.01px solid #ffffff25;
 }
