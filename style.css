@@ -2,6 +2,9 @@
 * {
   background-color: #000;
   color: #fff;
+  user-select: none;
+  padding: 0;
+  margin: 0;
 }
 body {
   padding: 20px;
@@ -23,14 +26,5 @@ h1, h2, h3{
 h1{
   font-size: 60px;
   margin: 0;
-}
-img,
-embed {
-  width: 100%;
-}
-embed {
-  aspect-ratio: 16/9;
-}
-hr {
-  border: 0.01px solid #ffffff25;
+  padding-bottom: 10px;
 }
